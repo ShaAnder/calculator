@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class ="row">
+    <div class="column">
+      <h1 class="title">Scientific Calculator</h1>
+    </div>
+    <div>
+      <!-- the main calculator is a table -->
+      <!-- The head is our answer / typing numbers box, we will take inputs or push numbers clicked here -->
+      <table class="calculator table center">
+        <thead>
+          <tr>
+            <!-- A colspan of 7 (to provide enough type space) -->
+            <td colspan="7">
+              <div class="output form-group">
+                <!-- input type= text defines it as a single line text input -->
+                <!-- readonly name="" specifies that the input is read only, 
+                    it's content cannot be changes only copied and highlighted -->
+                <input type="text" class="ans form-control" readonly name="" />
+              </div>
+            </td>
+          </tr>
+        </thead>
+        </div>
+        <!-- These will be the actions our caclulator uses, this will be in 5 table rows, which we shall manipulate using css, for now the aim is to get the calculator up aand running so that we can script it. Later I will aim to add modes to make it more ease of use, we also have a mode class, this will be for later when we decide to add in different calculator-->
+        <div class="column">
+        <tbody class="actions mode-1">
+          <tr>
+            <td>
+              <button class="btnlight modes" data-value="8">Main</button>
+            </td>
+            <td>
+              <button class="btnlight modes" data-value="8">ABC</button>
+            </td>
+            <td>
+              <button class="btnlight modes" data-value="9">FUNC</button>
+            </td>
+        
+            <td>
+              <button class="btndark btn-op" data-value="*(">(</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value=")">)</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="%">%</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="ce">CE</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btndark btn-op" data-value="inv">Inv</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="sin">sin</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="ln">ln</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="7">7</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="8">8</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="9">9</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="/">÷</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btndark btn-op" data-value="3.14">π</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="cos">cos</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="log">log</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="4">4</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="5">5</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="6">6</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="*">×</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button class="btndark btn-op" data-value="e">e</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="tan">tan</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="radic">√</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="3">3</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="2">2</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="1">1</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="-">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btndark btn-op" data-value="exp">EXP</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="x^2">x²</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="**">x^</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value=".">.</button>
+            </td>
+            <td>
+              <button class="btnlight" data-value="0">0</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="=">=</button>
+            </td>
+            <td>
+              <button class="btndark btn-op" data-value="+">+</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <script src="assets/js/script.js" async defer></script>
+  </body>
+</html>

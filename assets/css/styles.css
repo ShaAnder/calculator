@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu SA Beginner&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  /* font stuff*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  height: 100vh;
+  color: #ffffff;
+  text-shadow: rgb(0, 0, 0) 1px 0 2px;
+  /* change the background */
+  background-image: linear-gradient(to top left, #58fcde 0%, #0052b7 100%);
+  /* set our display, flex lets items lay out and then wrap as neeed and isn't as strict */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.title {
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.center {
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.calculator {
+  border: 2px solid #ddd;
+  width: 250px;
+  height: 350px;
+  box-sizing: border-box;
+  margin: 40px auto 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.calculator .form-control {
+  height: 60px;
+  width: 580px;
+}
+.calculator .form-group {
+  margin-bottom: 0;
+}
+.calculator input[type="text"] {
+  font-size: 1.5rem;
+  color: #333;
+  opacity: 0.8;
+  text-align: right;
+  padding-right: 8px;
+}
+.calculator .btndark {
+  font-size: 2rem;
+  color: #ffffff;
+  width: 80px;
+  height: 54px;
+  opacity: 0.8;
+}
+
+.modes {
+  font-size: 1.5rem;
+}
+
+.calculator .btnlight {
+  font-size: 1.5rem;
+  color: rgb(26, 26, 26);
+  width: 80px;
+  height: 54px;
+  opacity: 0.8;
+}
+
+.calculator .btn-op {
+  background-color: rgb(26, 26, 26);
+  opacity: 0.8;
+}
