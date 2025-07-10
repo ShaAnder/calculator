@@ -48,17 +48,7 @@ Secondly we have the JS running in the background which is there to click the bu
 
 AS for our functions, and how they work, I have chosen to omit certain things that most scientific calculators do, such as throwing an error if you don't put the correct format in eg sin(x) instead when you press the number then the sin function it automatically calculates it
 
-SO far this calculator can do
-
-- Addition, subtraction, multiplication, division
-- Floor Division %
-- Parenthesies
-- Sin Cos Tan
-- Squared / Exponent (^2) (\*\*)
-- Pi
-- Log
-- Radic
-- exp
+SO far every button shown on app works, there's some unexpected behaviour with inv mode currently
 
 ## Learning Points & Takeaway
 
