@@ -30,7 +30,7 @@ At it's core it's a scientific calculator, it's designed to act in the same way 
 
 ### Why This?
 
-As I said in the introduction I have become empassioned with maths in my later years and want to build apps and programs around it, this is the first step in a series of projects I will create to help people enjoy the subject more
+As I said in the introduction I have become empassioned with maths in my later years and lately I have become fascinated with how they work and can i build one with code!
 
 ## Project Brief
 
